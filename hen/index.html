@@ -5,8 +5,14 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+  width: 434px;
+  height: 267px;
+  top: 211px;
+  left: 338px;}
 </style>
+<p align="center">
+</p>
+<img src="../assets/img/top.png" style="width:auto;">
 <script>
 var ua=navigator.userAgent,
 	fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple"));
@@ -135,11 +141,10 @@ var xtra_data,
 	filesystem='CELL_FS_FAT',
 	mount_path='/dev_rewrite',
  fail_msg_frag="<h1><span style='color:red'>Intento fallido, vuelve a intentarlo!</h1></span>",
- progress_msg_frag1="<h1>Inicializando exploit... ",
+ progress_msg_frag1="<div><h1>Inicializando exploit... ",
  progress_msg_frag2='%</h1>',
  toc_addr=7296344;
-
-document.write('<html><title>PS3Xploit - HEN Installer</title><div id="result"></div><div id="exploit"></div><div id="trigger"></div></html>');
+document.write('<html><title>PS3Xploit - HEN Installer</title><div id="result"></div><div id="exploit"></div><div id="trigger"></div></html>'); 
 var ua=navigator.userAgent,
  fwv=ua.substring(ua.indexOf("5.0 (")+19,ua.indexOf(") Apple"));
 if(fwv==="4.82"){
@@ -673,3 +678,4 @@ function triggerX()
 }
 initROP(true);
 </script>
+<img width="360" height="300" src="../assets/img/ROSASTORE_logo.png">
