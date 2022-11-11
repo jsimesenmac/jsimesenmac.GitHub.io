@@ -78,3 +78,33 @@ background-color: #d42a01;
     color: white;
     text-align: center;
  }
+ button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: rgb(255 0 0 / 0%);
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: outset;
+    border-color: buttonborder;
+}
+p.ex1 {
+    margin-bottom: 1em;
+}
+#statusBar {
+    font-size: 20px;
+    font-family: comic sans ms;
+}
